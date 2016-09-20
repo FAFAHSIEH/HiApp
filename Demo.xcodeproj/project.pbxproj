@@ -38,6 +38,7 @@
 		CD593B531D910DBA009BFFCC = {
 			isa = PBXGroup;
 			children = (
+				CD593B711D911AE6009BFFCC /* hi */,
 				CD593B5E1D910DBA009BFFCC /* Demo */,
 				CD593B5D1D910DBA009BFFCC /* Products */,
 			);
@@ -62,6 +63,13 @@
 				CD593B6B1D910DBA009BFFCC /* Info.plist */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		CD593B711D911AE6009BFFCC /* hi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = hi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					CD593B5B1D910DBA009BFFCC = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KQ8FDRVHNP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,9 +267,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KQ8FDRVHNP;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ntou.edu.cc.com.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = karen.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,9 +282,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KQ8FDRVHNP;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ntou.edu.cc.com.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = karen.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
